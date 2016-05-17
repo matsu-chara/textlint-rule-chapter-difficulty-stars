@@ -1,5 +1,7 @@
 # textlint-rule-chapter-difficulty-stars
 
+[![Build Status](https://travis-ci.org/matsu-chara/textlint-rule-chapter-difficulty-stars.svg?branch=master)](https://travis-ci.org/matsu-chara/textlint-rule-chapter-difficulty-stars)
+
 this is a linter plugin for japanese text.
 
 このtestlintプラグインは[dwango/scala_text](https://github.com/dwango/scala_text)のために作成されています。
