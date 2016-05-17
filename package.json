@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-chapter-difficulty-stars",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "textlint rule for search ★ in h1, h2headers(#, ##)",
   "main": "lib/chapter-difficulty-stars.js",
   "directories": {
