@@ -13,9 +13,9 @@ export default function(context) {
     [Syntax.Header](node) {
       let text = getSource(node);
       if (node.depth <= 2 && !text.includes("★")) {
-          reportResult(node, "#(h1), ##(h2)の見出し行に難易度表記(★)がありません");
+          reportResult(node, "#(h1), ##(h2)の見出し行に難易度表記(★)がありません "+ text);
       } else if (node.depth > 2 && text.includes("★")) {
-          reportResult(node, "#(h3)より大きな見出し行に難易度表記(★)が含まれています");
+          reportResult(node, "#(h3)より大きな見出し行に難易度表記(★)が含まれています " + text);
       }
     },
   };
